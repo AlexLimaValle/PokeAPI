@@ -2,7 +2,7 @@
 
 ![alt text](image.png)
 
-### 🚩 [Link App](https://pokeapi-applications.netlify.app/)
+### 🚩 [Link App](https://pokeapimanu.netlify.app/)
 
 ## 🌏 Navegadores
 

@@ -1,0 +1,16 @@
+button.boton__action{
+    padding: 10px;
+    border-radius: 7px;
+    border:0px;
+    margin: 5px;
+    text-transform: uppercase;
+    background-color: rgb(151, 235, 32);
+    color: #fff;
+    transition: all .4s;
+}
+
+button.boton__action:hover{
+    box-shadow: 1px 1px 10px 1px #b0b0b0;
+    color:#000000;
+    background-color: #ffffff !important;
+}

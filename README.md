@@ -1,4 +1,4 @@
-# ![logo de pokemon](./logo.png)
+![logo de pokemon](logo.png)
 
 ![alt text](image.png)
 

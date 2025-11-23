@@ -114,14 +114,14 @@ const Nav:React.FC<Props> = ({pokemonTodo,pokemonVisibility,setPokemonVisibility
     };
 
     return (
-        <nav className="row justify-content-between align-items-center py-2">
-            <div className="col-xl-2">
+        <nav className="row justify-content-between justify-content-xl-center align-items-center py-2">
+            <div className="col-12 col-xl-2">
                 <img src="/assets/logo.png" alt="logo" style={{width:"160px",height:"90px"}} />
             </div>
             <div className="col-xl-2">
                 <Search pokemonTodo={pokemonTodo} pokemonVisibility={pokemonVisibility} setPokemonVisibility={setPokemonVisibility} label="Buscar pokemon"/>
             </div>
-            <div className="col-xl-7">
+            <div className="col-12 col-xl-7 mt-4 mt-xl-0">
                 {
                     items.map(({name,color},key)=>{
                         return <button key={key} onClick={handleClick} style={{backgroundColor:color}} className="boton__action">{name}</button>
